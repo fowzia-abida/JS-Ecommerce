@@ -18,11 +18,6 @@ body{
   height: 100%;
 }
 
-a{
-  text-decoration: none;
-  color: #fff;
-
-}
 
 li{
   list-style: none;
@@ -42,6 +37,34 @@ header{
   background-color: #203040;
   color: #fff;
 
+}
+h1{
+  font-size :1.8 rem;
+  padding: 1rem 0;
+}
+
+h2{
+  font-size :1.8 rem;
+  padding: 1rem 0;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover{
+  text-decoration: #a31313;
+
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+li {
+  margin-top: 1rem;
 }
 
 main{
@@ -129,6 +152,15 @@ img.medium {
 }
 .row.center {
   justify-content: center;
+}
+.row.top {
+  align-items: flex-start;
+}
+.col-1 {
+  flex: 1 1 25rem;
+}
+.col-2 {
+  flex: 2 1 50rem;
 }
 
 .row {
